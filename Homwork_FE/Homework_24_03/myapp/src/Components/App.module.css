@@ -1,0 +1,16 @@
+.div_app_style{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2 1fr);
+    
+    gap: 30px;
+
+}
+
+.addButton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}

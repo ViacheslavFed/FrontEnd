@@ -1,0 +1,31 @@
+
+
+.div_container{
+    background: linear-gradient(90deg, rgb(171, 216, 94) 10%, rgb(45, 86, 129) 100%);
+    border: 2px solid black;
+    border-radius: 15px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100px;
+    padding: 50px;
+    
+    }
+
+    .count_button{
+        display: flex;
+        gap: 30px;
+        align-items: center
+
+    }
+
+    .count_button button{
+        width: 30px;
+        height:30px ;
+        text-align: center;
+        font-size: 20px;
+
+    }
