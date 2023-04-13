@@ -1,0 +1,11 @@
+.cardItem{
+    padding: 120px 70px 280px;
+    flex: 1;
+    color: white;
+    font-size: 32px;
+    font-style: italic;
+}
+
+h3{
+    margin-top: 30px;
+}

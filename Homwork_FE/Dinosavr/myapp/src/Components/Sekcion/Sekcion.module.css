@@ -1,0 +1,24 @@
+.sekcion{
+    padding: 130px 150px 90px;
+    display: flex;
+    gap: 50px;
+    background: #F4F9E2;
+}
+
+h2{
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.sekcion_left,
+.sekcion_right{
+    flex: 1;
+}
+
+.sekcion_right{
+    margin-top: -100px;
+}

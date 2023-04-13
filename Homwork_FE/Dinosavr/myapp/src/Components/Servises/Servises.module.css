@@ -1,0 +1,30 @@
+
+.sekcion{
+    display: flex;
+    gap: 50px;
+    background:  #62D0DF;
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+h2{
+    font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
+
+.sekcion_left,
+.sekcion_right{
+    flex: 1;
+}
+
+.sekcion_left{
+    padding: 130px 160px;
+}
+
+.sekcion_right{
+    display: flex;
+    justify-content: flex-end;
+}

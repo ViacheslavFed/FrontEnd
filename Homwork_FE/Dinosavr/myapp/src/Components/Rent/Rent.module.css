@@ -1,0 +1,11 @@
+.sekcion{
+    display: flex;
+    gap: 50px;
+}
+
+.sekcion_right{
+    padding: 240px 60px;
+    font-size: 36px;
+    font-style: italic;
+    color: #22356F;
+}
