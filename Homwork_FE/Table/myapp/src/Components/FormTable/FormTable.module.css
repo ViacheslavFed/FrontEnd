@@ -1,0 +1,37 @@
+.form{
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #ECF0F1;
+}
+
+.form_top{
+    padding-bottom: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.form_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    border-radius: 23px;
+    background: #1ABC9C;
+    color: white;
+}
+
+.form_top_day{
+    height: 35px;
+    width: 170px;
+    padding-left: 7px;
+}
+
+input{
+    padding-left: 9px;
+    width: 355px;
+    height: 30px;
+}
