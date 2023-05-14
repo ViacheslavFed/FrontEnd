@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 60px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    list-style: none;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+.line_first,
+.line_second,
+.line_tree{
+    width: 30px;
+    height: 3px;
+    background-color: black;
+}
+
+.burger{
+    display: none;
+    flex-direction: column;
+    gap: 7px;
+
+}
+
+.burger_active .line_first{
+    rotate: 45deg;
+    translate: 0 10px;
+}
+
+.burger_active .line_second{
+    rotate: 45deg;
+    translate: -1px 7px;
+}
+
+.burger_active .line_tree{
+    rotate: -45deg;
+    translate: -1px 5px;
+}
+
+@media (max-width: 800px){
+    .burger{
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+    }
+    .menu_list{
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+.background{
+    padding: 30px;
+    background: #EDF7FA;
+}
+
+.postsContainerHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.postsContainerHeader p{
+    font-size: 16px;
+    color: #00A8CC;
+}
+
+.postsContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.recent{
+    font-weight: 400;
+    font-size: 22px;
+}
+
+@media (max-width: 800px){
+    .postsContainer{
+        flex-direction: column;
+    }
+}

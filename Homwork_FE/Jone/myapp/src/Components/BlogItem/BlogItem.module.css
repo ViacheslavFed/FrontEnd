@@ -1,0 +1,30 @@
+
+.blog_h2{
+    margin-bottom: -30px;
+    padding-top: 30px;
+    width: 700;
+    font-weight: 500;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.blog_h4{
+    margin-bottom: -20px;
+    display: flex;
+    gap: 50px;
+}
+
+.blog_date{
+    padding-right: 50px;
+    border-right: solid 1px black;
+}
+
+.blog_p{
+    padding-bottom: 15px;
+    width: 700;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    border-bottom: solid 1px #E0E0E0;
+
+}

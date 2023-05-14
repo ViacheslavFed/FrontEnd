@@ -1,0 +1,36 @@
+
+.info_h2{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.info_flex{
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.info_year{
+    padding: 3px 10px;
+    height: 25px;
+    color: #fff;
+    background-color: #ff7c7c;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+}
+
+.info_tags{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.info_img{
+    width: 100%;
+}
